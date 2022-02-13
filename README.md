@@ -57,19 +57,21 @@ ICLR 2022
 
 ### Experiments(Final Testing)
 
-1. Run the fast concept learning experiments via the config file `cub/cub_fewshot_graphical_box.yaml`, `clevr/clevr_fewshot_graphical_0.yaml` 
+1. Run the fast concept learning experiments via the config file `cub/cub_fewshot_graphical_box.yaml`, 
+    `clevr/clevr_fewshot_graphical_0.yaml` 
     or `gqa/gqa_fewshot_graphical_box.yaml`. 
     
     ```bash
-    export NAME=cub/cub_fewshot_graphical_box; python tools/test_net.py
-    export NAME=clevr/clevr_fewshot_graphical_0; python tools/test_net.py
-    export NAME=gqa/gqa_fewshot_graphical_box; python tools/test_net.py
+    export NAME=cub/cub_fewshot_graphical_box; python tools/test_net.py --config-file experiments/${NAME}.yaml
+    export NAME=clevr/clevr_fewshot_graphical_0; python tools/test_net.py --config-file experiments/${NAME}.yaml
+    export NAME=gqa/gqa_fewshot_graphical_box; python tools/test_net.py --config-file experiments/${NAME}.yaml
     ```
    
 
 ### Experiments(Training)
 
-1. Uncomment in `scripts/download_cub_data.sh` and `scripts/download_cub_data.sh`. Re-run them
+1. Here we use the CUB dataset as an example. Uncomment in `scripts/download_cub_data.sh` 
+    and `scripts/download_cub_data.sh`. Re-run them
     
     ```bash
     . scripts/download_cub_data.sh ${DATASET_ROOT}
@@ -79,20 +81,20 @@ ICLR 2022
 2. Train optionally and test on the parser.
     
     ```bash
-    export NAME=cub/cub_fewshot_build; python tools/train_net.py
-    export NAME=cub/cub_fewshot_build; python tools/test_net.py
+    export NAME=cub/cub_fewshot_build; python tools/train_net.py --config-file experiments/${NAME}.yaml
+    export NAME=cub/cub_fewshot_build; python tools/test_net.py --config-file experiments/${NAME}.yaml
     ```
    
 3. Train optionally the concept embeddings and feature extractor from the training concepts.
     
     ```bash
-    export NAME=cub/cub_support_box; python tools/train_net.py
+    export NAME=cub/cub_support_box; python tools/train_net.py --config-file experiments/${NAME}.yaml
     ```
 
 4. Train optionally the fast concept learning models, e.g. FALCON-G.
     ```bash
-    export NAME=cub/cub_fewshot_graphical_box; python tools/train_net.py
-    export NAME=cub/cub_fewshot_graphical_box; python tools/test_net.py
+    export NAME=cub/cub_fewshot_graphical_box; python tools/train_net.py --config-file experiments/${NAME}.yaml
+    export NAME=cub/cub_fewshot_graphical_box; python tools/test_net.py --config-file experiments/${NAME}.yaml
    ```
  
 ### Experiments (Additional)
