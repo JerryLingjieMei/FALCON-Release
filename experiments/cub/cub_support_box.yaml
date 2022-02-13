@@ -1,0 +1,8 @@
+DATASETS:
+  TRAIN: cub_concept_support_train
+  VAL: cub_concept_support_val
+  TEST: cub_concept_all
+TEMPLATE:
+  - box
+  - cub
+  - pretrain

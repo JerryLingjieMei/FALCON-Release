@@ -1,0 +1,12 @@
+DATASETS:
+    TEST: cub_fewshot_test
+    TRAIN: cub_fewshot_train
+    VAL: cub_fewshot_val
+MODEL:
+    NAME: graphical
+TEMPLATE:
+- meta
+- cub
+- box
+WEIGHT:
+    FILE: output/cub_support_box/checkpoints/model_0050000.pth

@@ -1,0 +1,8 @@
+DATASETS:
+  TRAIN: cub_fewshot_builder_train*.5+cub_concept_full_builder_train*.5
+  VAL: cub_fewshot_builder_val
+  TEST: cub_fewshot_builder_all&cub_concept_support_builder_all
+TEMPLATE:
+  - box
+  - cub
+  - build

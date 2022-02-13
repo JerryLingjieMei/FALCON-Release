@@ -1,0 +1,10 @@
+DATASETS:
+  TRAIN: clevr_concept_support_train
+  VAL: clevr_concept_support_val
+  TEST: clevr_concept_all
+TEMPLATE:
+  - box
+  - clevr
+  - pretrain
+
+

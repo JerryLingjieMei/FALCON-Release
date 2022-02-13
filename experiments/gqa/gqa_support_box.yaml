@@ -1,0 +1,8 @@
+DATASETS:
+  TRAIN: gqa_concept_support_train
+  VAL: gqa_concept_support_val
+  TEST: gqa_concept_all
+TEMPLATE:
+  - box
+  - gqa
+  - pretrain

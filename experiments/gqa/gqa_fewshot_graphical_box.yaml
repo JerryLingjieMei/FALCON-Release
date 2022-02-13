@@ -1,0 +1,12 @@
+DATASETS:
+    TEST: gqa_fewshot_test
+    TRAIN: gqa_fewshot_train
+    VAL: gqa_fewshot_val
+MODEL:
+    NAME: graphical
+TEMPLATE:
+- meta
+- gqa
+- box
+WEIGHT:
+    FILE: output/gqa_support_box/checkpoints/model_0050000.pth

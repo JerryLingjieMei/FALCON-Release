@@ -1,0 +1,12 @@
+DATASETS:
+    TEST: clevr_fewshot_debias_test&clevr_fewshot_test
+    TRAIN: clevr_fewshot_train
+    VAL: clevr_fewshot_val
+MODEL:
+    NAME: graphical
+TEMPLATE:
+- meta
+- clevr
+- box
+WEIGHT:
+    FILE: output/clevr_support_0/checkpoints/model_0050000.pth

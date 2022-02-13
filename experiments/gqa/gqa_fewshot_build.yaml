@@ -1,0 +1,10 @@
+DATASETS:
+  TRAIN: gqa_fewshot_builder_train*.5+gqa_concept_full_builder_train*.5
+  VAL: gqa_fewshot_builder_val
+  TEST: gqa_concept_support_builder_all&gqa_fewshot_builder_all
+TEMPLATE:
+  - box
+  - gqa
+  - build
+
+

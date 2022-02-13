@@ -1,0 +1,9 @@
+DATASETS:
+  TRAIN: clevr_fewshot_builder_train*.5+clevr_concept_full_builder_train*.5
+  VAL: clevr_fewshot_builder_val
+  TEST: clevr_fewshot_builder_all&clevr_concept_support_builder_all
+TEMPLATE:
+  - box
+  - clevr
+  - build
+

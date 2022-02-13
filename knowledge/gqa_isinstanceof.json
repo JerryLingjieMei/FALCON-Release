@@ -1,0 +1,53 @@
+{
+  "material": [
+    "glass",
+    "metal",
+    "plastic",
+    "stone",
+    "wood"
+  ],
+  "pose": [
+    "sitting",
+    "standing",
+    "walking"
+  ],
+  "place": [
+    "forest",
+    "building",
+    "car",
+    "floor",
+    "grass",
+    "ground",
+    "post",
+    "road",
+    "sidewalk",
+    "sky",
+    "snow",
+    "street",
+    "table",
+    "walkway",
+    "water"
+  ],
+  "color": [
+    "black",
+    "blue",
+    "brown",
+    "dark",
+    "gray",
+    "green",
+    "orange",
+    "pink",
+    "red",
+    "silver",
+    "white",
+    "yellow"
+  ],
+  "size": [
+    "large",
+    "small"
+  ],
+  "length": [
+    "short",
+    "tall"
+  ]
+}

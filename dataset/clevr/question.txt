@@ -1,0 +1,91 @@
+
+Object count / existence
+
+family index 26:
+- Are there any … [dir relation] the … [dir relation] the … [dir relation] the … 
+- There is a … [dir relation] the … [dir relation] the … ; is there a … [dir relation] it
+- Is there a … [dir relation] the … [dir relation] the … [dir relation] the …
+
+family index 31:
+- What number of objects are (both) [dir relation] the … and [dir relation] the … 
+- How … are (both) [dir relation] the … and [dir relation] the …
+
+
+family index 67:
+- {What number of / How many} {objects / things} are (either) {… [dir relation] the …} or {… [dir relation] the …}
+
+family index 68: same as 65, filter by material
+family index 69: same as 65, filter by shape
+
+family index 70:
+- {What number of / How many} {objects / things} are (either) {… [dir relation] the …} or … 
+
+family index 71:
+- {What number of / How many} {objects / things} are (either) … or {… [dir relation] the …}
+
+family index 72:
+- There is a … ; how many … are [dir relation]
+- What number of … are [dir relation] the … 
+- How many … are [dir relation] the … 
+
+family index 73:
+- There is a … ; are there any … [dir relation] it
+- Are there any … [dir relation] the … 
+
+family index 78:
+- What number of … are [dir relation] the … [dir relation] the … 
+- How many … are [dir relation] the … [dir relation] the … 
+- There is a {… [dir relation] the …} ; {what number / how many} … are [dir relation] it
+
+family index 79:
+- There is a {… [dir relation] the …} ; {are / is} there {any / a} [dir relation] it
+- {Are / Is} there {any / a} … [dir relation] the … [dir relation] the … 
+
+
+-----------------------------------------------------------------------------------------------
+Query attributes
+
+family index 27:
+- How big is the … [dir relation] the … [dir relation] the … [dir relation] the … 
+- What is the size of / what size is the … [dir relation] the … [dir relation] the … [dir relation] the …
+- There is a … [dir relation] the … [dir relation] the … [dir relation] the … ; how big is it / what is its size / what size is it
+
+family index 28:
+- There is a … [dir relation] the … [dir relation] the … [dir relation] the … ; what is its shape / what shape is it
+- What shape is / What is the shape of the … [dir relation] the … [dir relation] the … [dir relation] the …
+- The … [dir relation] the … [dir relation] the … [dir relation] the … is what shape
+
+family index 29: same as family 28 for color attribute
+family index 30: same as family 28 for material attribute
+
+family index 32:
+- What is the size of / What size is / How big is … that is (both) [dir relation] the … and [dir relation] the … 
+- There is a … that is (both) [dir relation] the … and [dir relation] the … ; what is its size
+
+family index 33:
+- There is a ... that is (both) [dir relation] the … and [dir relation] the … ; what is its color
+- What color is / What is the color of the … that is (both) [dir relation] the … and [dir relation] the … 
+- The … that is (both) [dir relation] the … and [dir relation] the … is what color
+
+family index 34: Same as family 33 for material attribute
+family index 35: Same as family 33 for shape
+
+question family 74:
+- {What size is / What is the size of} the {… [dir relation] the …}
+- How big is the {… [dir relation] the …}
+- There is a {… [dir relation] the …} ; {what is its size / what size is it / how big is it}
+
+question family 75: same as family 74, query color
+question family 76: same as family 74, query material
+question family 77: same as family 74, query shape
+
+question family 80: 
+- {What size is / What is the size of / How big is} the … that is [dir relation] the … [dir relation] the … 
+- There is a ... [dir relation] the … [dir relation] the … ; {What size is it / What is the size of it / How big is it}
+
+question family 81: same to 80, query color
+question family 82: same to 80, query material
+question family 83: same to 80, query shape
+
+
+Filter
