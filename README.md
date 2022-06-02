@@ -1,7 +1,7 @@
 # Falcon-Release
 PyTorch implementation of FALCON: Fast Visual Concept Learning by Integrating Images, Linguistic descriptions, and Conceptual Relations
 
-![](assets/teaser.png)
+![](assets/teaser.gif)
 
 FALCON: Fast Visual Concept Learning by Integrating Images, Linguistic descriptions, and Conceptual Relations
 
@@ -11,7 +11,7 @@ ICLR 2022
 
 [Paper](https://openreview.net/pdf?id=htWIlvDcY8) [Website](https://people.csail.mit.edu/jerrymei/projects/falcon/) 
 
-![](assets/model.png)
+![](assets/model.gif)
 ## Getting started
 ### Prerequisites
 + Linux
